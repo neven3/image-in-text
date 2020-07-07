@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    font-family: 'Permanent Marker', sans-serif;
+    background-color: #0e6e7191;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 211px;
+    text-align: center;
+    letter-spacing: 21px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1554321585-ef3194b190cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80) 50% 0%;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
